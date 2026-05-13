@@ -1,4 +1,4 @@
-# IDL Assignment 2 – Image Preprocessing Techniques  
+# IDL – Image Preprocessing Techniques  
 ### Name: Hafiz Muhammad Haris  
 ### ID: L1S22BSCS0220  
 
