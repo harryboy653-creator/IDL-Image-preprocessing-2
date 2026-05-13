@@ -1,60 +1,51 @@
-# IDL – Image Preprocessing Techniques  
-### Name: Hafiz Muhammad Haris  
-### ID: L1S22BSCS0220  
+# Image Preprocessing Techniques
+### Using Mini-ImageNet Dataset
 
 ## 📌 Overview
-This repository contains the implementation of five image preprocessing techniques using the **Mini-ImageNet** dataset.  
-The assignment includes visual comparisons, code functions, and a structured PDF report.
+Implementation of five fundamental image
+preprocessing techniques applied to the
+Mini-ImageNet dataset. Includes visual
+comparisons and structured analysis of
+each transformation's impact on image data.
+
+## 🧰 Techniques Implemented
+| # | Technique | Purpose |
+|---|-----------|---------|
+| 1 | Resizing (64×64) | Uniform input for models |
+| 2 | Normalization (0–1) | Stable, faster training |
+| 3 | Grayscale Conversion | Reduce complexity |
+| 4 | Horizontal Flipping | Data augmentation |
+| 5 | Random Rotation (±20°) | Rotation invariance |
 
 ## 📂 Dataset
-Dataset used: **Mini-ImageNet**  
-Downloaded via KaggleHub:
+Mini-ImageNet — downloaded via KaggleHub
+Industry-standard benchmark dataset for
+image classification tasks.
 
-```python
-path = kagglehub.dataset_download("deeptrial/miniimagenet")
+## 🛠️ Libraries Used
+- Python 3.x
+- TensorFlow
+- OpenCV
+- NumPy
+- Matplotlib
+- KaggleHub
 
-🧰 Preprocessing Techniques
+## ▶️ How to Run
+pip install tensorflow matplotlib numpy
+         opencv-python kagglehub
 
-1. Image Resizing (64 × 64)
+Run IDL_asg_2.ipynb in:
+Jupyter Notebook or Google Colab
 
+## 🔗 Connection to Deep Learning
+These preprocessing techniques form the
+foundation of any deep learning pipeline.
+In my FYP (CardioSense), similar steps —
+normalization, segmentation, and feature
+extraction — were applied to PCG audio
+signals before CNN-LSTM model training.
 
-2. Image Normalization (0–1)
-
-
-3. Grayscale Conversion
-
-
-4. Horizontal Flipping
-
-
-5. Random Rotation (±20°)
-
-
-
-Each transformation includes visualization using Matplotlib.
-
-📘 Files Included
-
-IDL_asg_2.ipynb (main notebook)
-
-PDF Report
-
-Preprocessed images (optional)
-
-
-
-How to Run
-
-Install dependencies:
-
-pip install tensorflow matplotlib numpy opencv-python kagglehub
-
-Run the notebook using:
-
-Jupyter Notebook / Google Colab
-
-📝 Author
-
+## 👨‍💻 Author
 Hafiz Muhammad Haris
-Department of Computer Science
-UCP
+BS Computer Science
+University of Central Punjab, Lahore
